@@ -1,0 +1,4 @@
+C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\assets\app\bundle.js
+C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\assets\app\runtime.js
+C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\assets\app\tns-java-classes.js
+C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\assets\app\vendor.js

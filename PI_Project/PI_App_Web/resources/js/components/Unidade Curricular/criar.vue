@@ -1,0 +1,182 @@
+<template>
+    <div class="row">
+        <br>
+        <form>
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-body no-padding">
+                        <div class="col-md-12">
+                            <label style="color: red;">* Campos obrigatórios</label>
+                            <p></p>
+                            <label>Nome</label><label style="color: red;">&nbsp;*</label>
+                            <input type="text" class="search-input form-control"
+                                   placeholder="Nome da unidade curricular"
+                                   v-model="$v.unidadeCurricular.nome.$model">
+                            <div class="error" style="color:red"
+                                 v-if="!$v.unidadeCurricular.nome.required && $v.unidadeCurricular.nome.$anyDirty"><strong>Nome é obrigatório</strong>
+                            </div>
+                            <div style="color:red" v-if="!$v.unidadeCurricular.nome.spacesLetters && $v.unidadeCurricular.nome.$anyDirty"><strong>Nome apenas pode incluir espaços e letras</strong>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Semestre</label><label style="color: red;">&nbsp;*</label>
+                            <select v-model="$v.unidadeCurricular.semestre.$model" class="search-select form-control">
+                                <option value="" disabled selected>Semestre da unidade curricular</option>
+                                <option value="1">1ª Semestre</option>
+                                <option value="2">2ª Semestre</option>
+                            </select>
+                            <div class="error" style="color:red"
+                                 v-if="!$v.unidadeCurricular.semestre.required && $v.unidadeCurricular.semestre.$anyDirty"><strong>Semestre é obrigatório</strong>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Ano letivo</label><label style="color: red;">&nbsp;*</label>
+                            <select v-model="$v.unidadeCurricular.anoLetivo.$model" class="search-select form-control">
+                                <option value="" disabled selected>Ano letivo da unidade curricular</option>
+                                <option>2019/2020</option>
+                                <option>2020/2021</option>
+                                <option>2021/2022</option>
+                            </select>
+                            <div class="error" style="color:red"
+                                 v-if="!$v.unidadeCurricular.anoLetivo.required && $v.unidadeCurricular.anoLetivo.$anyDirty"><strong>Ano letivo é obrigatório</strong>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Ano</label><label style="color: red;">&nbsp;*</label>
+                            <input type="number" class="search-input form-control"
+                                   placeholder="Ano da unidade curricular"
+                                   v-model="$v.unidadeCurricular.ano.$model">
+                            <div class="error" style="color:red"
+                                 v-if="!$v.unidadeCurricular.ano.required && $v.unidadeCurricular.ano.$anyDirty"><strong>Ano é obrigatório</strong>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Curso</label><label style="color: red;">&nbsp;*</label>
+                            <vue-select @class="form-control" name="curso" label="nome" :filterable="true" :options="unidadeCurricular.cursos"
+                                        @search="fetchCursos" placeholder="Curso associado à unidade curricular"
+                                        v-model="$v.unidadeCurricular.curso_id.$model"
+                                        style="background-color: #fff">
+                                <span slot="no-options">Não existem opções compatíveis!</span>
+                            </vue-select>
+                            <div class="error" style="color:red"
+                                 v-if="!$v.unidadeCurricular.curso_id.required && $v.unidadeCurricular.curso_id.$anyDirty"><strong>Curso é obrigatório</strong>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <a class="btn btn-primary" @click.prevent="!$v.$invalid ? saveUC() : showErrors()">Guardar</a>
+                            <a class="btn btn-light" v-on:click.prevent="cancelUC()">Cancelar</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</template>
+
+<script>
+    import vueSelect from 'vue-select';
+    import 'vue-select/dist/vue-select.css';
+    import {
+        required,
+        numeric,
+        email,
+        minLength,
+        maxLength,
+        minValue,
+        maxValue,
+        helpers
+    } from "vuelidate/src/validators";
+
+    const spacesLetters = (value) => /^[A-Za-záàâãéèêíóôõúçÁÀÂÃÉÈÍÓÔÕÚÇ ]+$/.test(value);
+
+    export default {
+        name: "criar",
+        components: {
+            vueSelect,
+        },
+        data: function () {
+            return {
+                unidadeCurricular: {
+                    nome: '',
+                    semestre: '',
+                    curso_id: '',
+                    anoLetivo: '',
+                    ano: '',
+                    cursos: [],
+                },
+            }
+        },
+        methods: {
+            saveUC() {
+                this.$emit('save-NewUC', this.unidadeCurricular)
+            },
+            cancelUC() {
+                this.$emit('cancel-NewUC')
+            },
+            fetchCursos(search, loading) {
+                let self = this;
+                loading(true);
+                if (search) {
+                    axios.get('/api/cursos/' + search)
+                        .then(function (response) {
+                            self.unidadeCurricular.cursos = response.data;
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        })
+                        .finally(function () {
+                            loading(false);
+                        });
+                }
+                loading(false);
+            },
+            showErrors() {
+                this.$v.$touch();
+            },
+        },
+        validations: {
+            unidadeCurricular: {
+                nome: {
+                    required,
+                    spacesLetters
+                },
+                semestre: {
+                    required,
+                },
+                anoLetivo: {
+                    required,
+                },
+                ano: {
+                    required,
+                },
+                curso_id: {
+                    required,
+                }
+            },
+        }
+    }
+</script>
+
+<style scoped>
+    ::-webkit-input-placeholder {
+        color: black;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: black;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: black;
+    }
+
+    :-ms-input-placeholder {
+        color: black;
+    }
+</style>

@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
+use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Event;
+
+class EventServiceProvider extends ServiceProvider
+{
+    /**
+     * The event listener mappings for the application.
+     *
+     * @var array
+     */
+    protected $listen = [
+        Registered::class => [
+            SendEmailVerificationNotification::class,
+        ],
+        'App\Events\TutoriaChanged'       => [
+            'App\Listeners\SendTutoriaEmail'
+        ],
+        'App\Events\TutoriaCreated'       => [
+            'App\Listeners\SendTutoriaEmailCreated'
+        ],
+        'App\Events\TutoriaConfirmed'       => [
+            'App\Listeners\SendTutoriaEmailConfirmed'
+        ],
+        'App\Events\TutoriaWithdrawConfirmation'       => [
+            'App\Listeners\SendTutoriaEmailWithdrawConfirmation'
+        ],
+        'App\Events\TutoriaConfirmedMov'       => [
+            'App\Listeners\SendTutoriaEmailConfirmedMov'
+        ],
+        'App\Events\TutoriaWithdrawConfirmationMov'       => [
+            'App\Listeners\SendTutoriaEmailWithdrawConfirmationMov'
+        ],
+        'App\Events\TutoriaChangedMov'       => [
+            'App\Listeners\SendTutoriaEmailMov'
+        ],
+        'App\Events\TutoriaCreatedMov'       => [
+            'App\Listeners\SendTutoriaEmailCreatedMov'
+        ],
+        'Adldap\Laravel\Events\AuthenticationSuccessful' => [
+            'App\Listeners\LogAuthSuccessful'
+        ],
+    ];
+
+    /**
+     * Register any events for your application.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        parent::boot();
+
+        //
+    }
+}

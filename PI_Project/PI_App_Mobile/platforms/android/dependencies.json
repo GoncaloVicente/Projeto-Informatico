@@ -1,0 +1,66 @@
+[
+    {
+        "name": "@nativescript/theme",
+        "directory": "..\\..\\node_modules\\@nativescript\\theme"
+    },
+    {
+        "name": "@nstudio/nativescript-checkbox",
+        "directory": "..\\..\\node_modules\\@nstudio\\nativescript-checkbox"
+    },
+    {
+        "name": "nativescript-datetimepicker",
+        "directory": "..\\..\\node_modules\\nativescript-datetimepicker"
+    },
+    {
+        "name": "nativescript-drop-down",
+        "directory": "..\\..\\node_modules\\nativescript-drop-down"
+    },
+    {
+        "name": "nativescript-grid-view",
+        "directory": "..\\..\\node_modules\\nativescript-grid-view"
+    },
+    {
+        "name": "nativescript-local-notifications",
+        "directory": "..\\..\\node_modules\\nativescript-local-notifications"
+    },
+    {
+        "name": "nativescript-modal-datetimepicker",
+        "directory": "..\\..\\node_modules\\nativescript-modal-datetimepicker"
+    },
+    {
+        "name": "nativescript-popup",
+        "directory": "..\\..\\node_modules\\nativescript-popup"
+    },
+    {
+        "name": "nativescript-ui-listview",
+        "directory": "..\\..\\node_modules\\nativescript-ui-listview"
+    },
+    {
+        "name": "nativescript-ui-sidedrawer",
+        "directory": "..\\..\\node_modules\\nativescript-ui-sidedrawer"
+    },
+    {
+        "name": "nativescript-vue",
+        "directory": "..\\..\\node_modules\\nativescript-vue"
+    },
+    {
+        "name": "nativescript-vue-global-drawer",
+        "directory": "..\\..\\node_modules\\nativescript-vue-global-drawer"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "..\\..\\node_modules\\tns-core-modules"
+    },
+    {
+        "name": "nativescript-ui-core",
+        "directory": "..\\..\\node_modules\\nativescript-ui-core"
+    },
+    {
+        "name": "@nativescript/core",
+        "directory": "..\\..\\node_modules\\@nativescript\\core"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "..\\..\\node_modules\\tns-core-modules-widgets"
+    }
+]

@@ -1,0 +1,4 @@
+#Mon Jul 13 12:12:29 BST 2020
+base.0=C\:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\platforms\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,15 @@
+
+@import "icon_font/css/icon_font.css";
+@import "jquery.transfer.css";
+
+.table-responsive-grid {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.vc-popover-content{
+    z-index: 100000;
+}

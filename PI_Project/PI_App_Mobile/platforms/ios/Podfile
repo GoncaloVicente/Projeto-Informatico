@@ -1,0 +1,19 @@
+use_frameworks!
+
+target "SmartFeedback" do
+# Begin Podfile - /Users/smartfeedback/Documents/SmartFeedback/node_modules/@nstudio/nativescript-checkbox/platforms/ios/Podfile
+pod 'BEMCheckBox', '~> 1.4.1'
+
+# End Podfile
+
+# NativeScriptPlatformSection /Users/smartfeedback/Documents/SmartFeedback/node_modules/@nativescript/core/platforms/ios/Podfile with 9.0
+platform :ios, '9.0'
+# End NativeScriptPlatformSection
+
+# Begin Podfile - /Users/smartfeedback/Documents/SmartFeedback/node_modules/@nativescript/core/platforms/ios/Podfile
+# platform :ios, '9.0'
+use_frameworks!
+
+pod 'MaterialComponents/Tabs', '~> 94.5'
+# End Podfile
+end

@@ -1,0 +1,27 @@
+{
+	"nativescript-grid-view": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-grid-view\\platforms\\android\\include.gradle": "0de934882098378a12a3f666399ae5d63968f2d3"
+	},
+	"nativescript-local-notifications": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-local-notifications\\platforms\\android\\app-release.aar": "dd1b558295d0cbef875c300dc7f8bc06f1c90ca8"
+	},
+	"nativescript-ui-listview": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-listview\\platforms\\android\\include.gradle": "47ffe675113a982585b2386750b2d4305b66b6ca",
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-listview\\platforms\\android\\typings\\listview.d.ts": "d3b76f21820076bdd93468055d6da69e9b41d98e",
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-listview\\platforms\\android\\TNSListView-release.aar": "e9677c69bc3e7fa63aee988efe824a992c1fc0ab"
+	},
+	"nativescript-ui-sidedrawer": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\TNSSideDrawer-release.aar": "e6e4d527ff85743c270768018b9ea720ec5b9dda",
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\typings\\sidedrawer.d.ts": "8256a2295125597755fe6a6faee866b0750e65f2"
+	},
+	"nativescript-ui-core": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-core\\platforms\\android\\typings\\core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2",
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\nativescript-ui-core\\platforms\\android\\TNSCore-release.aar": "0e2fe0b867821ad56b8f0b9c8ac4c90f4c399e3c"
+	},
+	"@nativescript/core": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\@nativescript\\core\\platforms\\android\\native-api-usage.json": "34ee0e9771ad7dd9d388c191734d71507a04565a"
+	},
+	"tns-core-modules-widgets": {
+		"C:\\Projetos\\Projeto_Informatico\\SmartFeedback_Mobile\\SmartFeedback\\node_modules\\tns-core-modules-widgets\\platforms\\android\\widgets-release.aar": "04ab989979a9c06b74b16f0841963ad5a22a7d4e"
+	}
+}

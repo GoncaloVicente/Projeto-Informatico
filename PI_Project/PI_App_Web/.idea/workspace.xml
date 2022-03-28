@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a7eaa22-4255-4fb2-9f65-81b58fadf34f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\laragon\www\smartFeedback\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/vendor/adldap2/adldap2-laravel" />
+      <path value="$PROJECT_DIR$/vendor/adldap2/adldap2" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Yx9BhsjISdF4uWAQsKnWVGoW9A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\smartFeedback\app\Http" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a7eaa22-4255-4fb2-9f65-81b58fadf34f" name="Default Changelist" comment="" />
+      <created>1583873244798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583873244798</updated>
+      <workItem from="1583873245991" duration="1362000" />
+      <workItem from="1583960612330" duration="12858000" />
+      <workItem from="1584015052789" duration="1824000" />
+      <workItem from="1584037381628" duration="2958000" />
+      <workItem from="1584445777612" duration="23000" />
+      <workItem from="1584446474407" duration="6254000" />
+      <workItem from="1584490033606" duration="702000" />
+      <workItem from="1584545497806" duration="4913000" />
+      <workItem from="1584704977948" duration="1374000" />
+      <workItem from="1584722719530" duration="8471000" />
+      <workItem from="1584890579407" duration="17879000" />
+      <workItem from="1584979453310" duration="10777000" />
+      <workItem from="1585059184109" duration="13179000" />
+      <workItem from="1585152228263" duration="637000" />
+      <workItem from="1585161967151" duration="5459000" />
+      <workItem from="1585239610167" duration="3801000" />
+      <workItem from="1585306053238" duration="12870000" />
+      <workItem from="1585486964932" duration="21001000" />
+      <workItem from="1585564978783" duration="681000" />
+      <workItem from="1585573056273" duration="2468000" />
+      <workItem from="1585581958817" duration="7578000" />
+      <workItem from="1585661713935" duration="3279000" />
+      <workItem from="1585665098814" duration="21505000" />
+      <workItem from="1585754717717" duration="350000" />
+      <workItem from="1585859600882" duration="11378000" />
+      <workItem from="1585909396186" duration="9250000" />
+      <workItem from="1585928459248" duration="1204000" />
+      <workItem from="1586030502060" duration="11169000" />
+      <workItem from="1586097664827" duration="12865000" />
+      <workItem from="1586186435658" duration="965000" />
+      <workItem from="1586189270455" duration="4591000" />
+      <workItem from="1586198362854" duration="1250000" />
+      <workItem from="1586451655375" duration="548000" />
+      <workItem from="1586690210288" duration="732000" />
+      <workItem from="1586986770774" duration="7072000" />
+      <workItem from="1587154473389" duration="1648000" />
+      <workItem from="1587289685978" duration="7268000" />
+      <workItem from="1587474940905" duration="5167000" />
+      <workItem from="1587480266697" duration="787000" />
+      <workItem from="1587504521511" duration="4235000" />
+      <workItem from="1587735451306" duration="756000" />
+      <workItem from="1588015848447" duration="8782000" />
+      <workItem from="1588084850946" duration="2005000" />
+      <workItem from="1588107350941" duration="987000" />
+      <workItem from="1588669142798" duration="14076000" />
+      <workItem from="1588793957593" duration="7103000" />
+      <workItem from="1588854677808" duration="1800000" />
+      <workItem from="1588878830988" duration="11567000" />
+      <workItem from="1588944574785" duration="3061000" />
+      <workItem from="1588955728371" duration="12164000" />
+      <workItem from="1589109475074" duration="3385000" />
+      <workItem from="1589146189000" duration="6225000" />
+      <workItem from="1589206662720" duration="9425000" />
+      <workItem from="1589225735013" duration="10442000" />
+      <workItem from="1589275985132" duration="4889000" />
+      <workItem from="1589386938584" duration="832000" />
+      <workItem from="1589574587646" duration="782000" />
+      <workItem from="1589577440032" duration="1435000" />
+      <workItem from="1589579789044" duration="72000" />
+      <workItem from="1589810695659" duration="660000" />
+      <workItem from="1589830367290" duration="8888000" />
+      <workItem from="1590434992426" duration="11121000" />
+      <workItem from="1590485595207" duration="15531000" />
+      <workItem from="1590592879324" duration="99000" />
+      <workItem from="1590595863214" duration="172000" />
+      <workItem from="1591039633882" duration="11565000" />
+      <workItem from="1591090701733" duration="10675000" />
+      <workItem from="1591260450496" duration="11386000" />
+      <workItem from="1591552554995" duration="980000" />
+      <workItem from="1591553597400" duration="829000" />
+      <workItem from="1591561408295" duration="1454000" />
+      <workItem from="1591638680231" duration="3299000" />
+      <workItem from="1591811054431" duration="16990000" />
+      <workItem from="1591888566948" duration="8977000" />
+      <workItem from="1591909155100" duration="3757000" />
+      <workItem from="1591966663263" duration="13993000" />
+      <workItem from="1592079974617" duration="6238000" />
+      <workItem from="1592128459166" duration="12428000" />
+      <workItem from="1592249153007" duration="13071000" />
+      <workItem from="1592301585753" duration="16787000" />
+      <workItem from="1592378534059" duration="10326000" />
+      <workItem from="1592410822120" duration="10752000" />
+      <workItem from="1592572502932" duration="13767000" />
+      <workItem from="1592772077644" duration="118000" />
+      <workItem from="1592774768347" duration="19000" />
+      <workItem from="1592774962331" duration="167000" />
+      <workItem from="1592775467568" duration="68000" />
+      <workItem from="1592841587322" duration="15522000" />
+      <workItem from="1593438630266" duration="2046000" />
+      <workItem from="1593459098710" duration="14599000" />
+      <workItem from="1593534006538" duration="2922000" />
+      <workItem from="1593589082097" duration="10198000" />
+      <workItem from="1593616058143" duration="166000" />
+      <workItem from="1593685251199" duration="16215000" />
+      <workItem from="1593794383056" duration="97000" />
+      <workItem from="1593943671145" duration="2204000" />
+      <workItem from="1593965509797" duration="2233000" />
+      <workItem from="1593970952468" duration="11597000" />
+      <workItem from="1594029818266" duration="656000" />
+      <workItem from="1594046102007" duration="255000" />
+      <workItem from="1594046436922" duration="671000" />
+      <workItem from="1594065538070" duration="8269000" />
+      <workItem from="1594130837141" duration="9462000" />
+      <workItem from="1594242239522" duration="39389000" />
+      <workItem from="1594509307172" duration="373000" />
+      <workItem from="1594545072632" duration="5551000" />
+      <workItem from="1594565173661" duration="297000" />
+      <workItem from="1594566614054" duration="143000" />
+      <workItem from="1594590504177" duration="5215000" />
+      <workItem from="1594645902256" duration="3771000" />
+    </task>
+    <task id="LOCAL-00025" summary="Mudanças nas migrações">
+      <created>1589811240310</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1589811240310</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Vue select multiplos a funcionar">
+      <created>1589875403223</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1589875403223</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Email enviado">
+      <created>1590487225069</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590487225070</updated>
+    </task>
+    <task id="LOCAL-00028" summary="V-calendar nas tutorias">
+      <created>1590494702316</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1590494702316</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Retirar e confirmar tutoria com mail">
+      <created>1590511263692</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1590511263692</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Calendário nas tutorias a funcionar">
+      <created>1591052756105</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591052756105</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Mudanças no resources">
+      <created>1591055929183</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591055929183</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Mudanças no resources da tutoria para fazer um split para a hora ter apenas dois parametros">
+      <created>1591091568668</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591091568668</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Aula a funcionar">
+      <created>1591113853282</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591113853282</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Arquivar e desarquivar tutorias">
+      <created>1591263141757</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591263141757</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Arquivar e desarquivar aulas">
+      <created>1591395885468</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591395885468</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Quando se inicia uma nova aula, cria uma nova aula, com os mesmo dados da antiga, mas sem votações de conteudos">
+      <created>1591641390034</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1591641390034</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Criar dashboard e meter o disable em vez de readonly">
+      <created>1591814235766</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1591814235766</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Login com ldap e cria logo utilizadores, ou aluno ou professor">
+      <created>1591895936082</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1591895936082</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Melhorias no dasboard">
+      <created>1591916334393</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1591916334393</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Melhorias no dasboard com os gráficos a funcionar">
+      <created>1591973174339</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1591973174339</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Melhorias no dasboard com os gráficos a funcionar e mensagens a dizer que não há dados">
+      <created>1591995613300</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1591995613301</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Perfil, gráficos da classificacao">
+      <created>1592343560624</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1592343560624</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Perfil a editar">
+      <created>1592386093743</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1592386093743</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Rotas protegidas de users não autenticados">
+      <created>1592419991257</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1592419991257</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Rebordo nas tabelas">
+      <created>1592422782565</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1592422782565</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Perfil com os cursos e as ucs">
+      <created>1592424903276</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1592424903276</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Adicionar conteudos em pt">
+      <created>1592426319389</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1592426319389</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Todo a inserir dados conforme o utilizador logado e transações a funcionar">
+      <created>1592573828057</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1592573828057</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Validações no aluno a funcionar">
+      <created>1592577443988</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1592577443988</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Validações na aula a funcionar">
+      <created>1592595344745</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1592595344747</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Validações no conteúdo a funcionar">
+      <created>1592597593535</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1592597593535</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Validações no curso a funcionar">
+      <created>1592597994763</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1592597994763</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Validações no professor a funcionar">
+      <created>1592599528976</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1592599528976</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Validações na sala a funcionar">
+      <created>1592600242373</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1592600242373</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Validações na sala a funcionar">
+      <created>1592772094712</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1592772094712</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Validações no servidor">
+      <created>1593603618378</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1593603618379</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Alteracoes no login">
+      <created>1593689491594</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1593689491594</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Socket">
+      <created>1593706966775</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1593706966775</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Sort a funcionar em todo o lado">
+      <created>1593975803956</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1593975803956</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Criar aula a funcionar corretamente">
+      <created>1593979244108</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1593979244108</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Quando faz o save, esconde as vistas">
+      <created>1593990180975</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1593990180975</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Validação do tamanho máximo do campo nome">
+      <created>1593990904721</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1593990904721</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Botão excel a funcionar e informações nas classificações a funcionar">
+      <created>1594164229625</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1594164229625</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Rotas de registar e verificar desativadas">
+      <created>1594164742673</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1594164742673</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Iniciar aula com id certo">
+      <created>1594392899591</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1594392899591</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Campos obrigatórios em todos os formulários">
+      <created>1594397013842</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1594397013842</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Filtro nas estatisticas das classificações">
+      <created>1594399227897</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1594399227897</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Tipos de utilizador a funcionar">
+      <created>1594509381243</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1594509381243</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Tipos de utilizador a funcionar">
+      <created>1594509644608</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1594509644608</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Tipos de utilizador a funcionar e validações nas unidades curriculares">
+      <created>1594548307120</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1594548307120</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Tipos de utilizador a funcionar e validações nas unidades curriculares">
+      <created>1594548562692</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1594548562692</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Tipos de utilizador a funcionar nas unidades curriculares">
+      <created>1594551281984</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1594551281984</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Site a funcionar">
+      <created>1594649593673</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1594649593673</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Perfil com os cursos e as ucs" />
+    <MESSAGE value="Adicionar conteudos em pt" />
+    <MESSAGE value="Todo a inserir dados conforme o utilizador logado e transações a funcionar" />
+    <MESSAGE value="Validações no aluno a funcionar" />
+    <MESSAGE value="Validações na aula a funcionar" />
+    <MESSAGE value="Validações no conteúdo a funcionar" />
+    <MESSAGE value="Validações no curso a funcionar" />
+    <MESSAGE value="Validações no professor a funcionar" />
+    <MESSAGE value="Validações na sala a funcionar" />
+    <MESSAGE value="Validações no servidor" />
+    <MESSAGE value="Alteracoes no login" />
+    <MESSAGE value="Socket" />
+    <MESSAGE value="Sort a funcionar em todo o lado" />
+    <MESSAGE value="Criar aula a funcionar corretamente" />
+    <MESSAGE value="Quando faz o save, esconde as vistas" />
+    <MESSAGE value="Validação do tamanho máximo do campo nome" />
+    <MESSAGE value="Botão excel a funcionar e informações nas classificações a funcionar" />
+    <MESSAGE value="Rotas de registar e verificar desativadas" />
+    <MESSAGE value="Iniciar aula com id certo" />
+    <MESSAGE value="Campos obrigatórios em todos os formulários" />
+    <MESSAGE value="Filtro nas estatisticas das classificações" />
+    <MESSAGE value="Tipos de utilizador a funcionar" />
+    <MESSAGE value="Tipos de utilizador a funcionar e validações nas unidades curriculares" />
+    <MESSAGE value="Tipos de utilizador a funcionar nas unidades curriculares" />
+    <MESSAGE value="Site a funcionar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Site a funcionar" />
+  </component>
+</project>

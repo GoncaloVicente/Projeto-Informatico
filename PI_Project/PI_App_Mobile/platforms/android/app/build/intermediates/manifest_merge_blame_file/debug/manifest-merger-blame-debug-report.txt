@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.SmartFeedback"
+4    android:versionCode="10000"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:13:2-76
+17-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:14:2-77
+18-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:15:2-63
+19-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:11:5-81
+20-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:12:5-68
+21-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:12:22-65
+22
+23    <application
+23-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:17:2-40:16
+24        android:name="com.tns.NativeScriptApplication"
+24-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:18:3-49
+25        android:allowBackup="true"
+25-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:19:3-29
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.0.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\eeb5da7c8c0996fbc1c9cdf4633c58bb\core-1.0.1\AndroidManifest.xml:22:18-86
+27        android:debuggable="true"
+28        android:icon="@drawable/icon"
+28-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:20:3-32
+29        android:label="@string/app_name"
+29-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:21:3-35
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:24:3-63
+31        android:theme="@style/AppTheme"
+31-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:22:3-34
+32        android:usesCleartextTraffic="true" >
+32-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:23:3-38
+33        <activity
+33-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:26:3-38:14
+34            android:name="com.tns.NativeScriptActivity"
+34-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:27:4-47
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+35-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:29:4-120
+36            android:label="@string/title_activity_kimera"
+36-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:28:4-49
+37            android:theme="@style/LaunchScreenTheme" >
+37-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:30:4-44
+38            <meta-data
+38-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:32:4-87
+39                android:name="SET_THEME_ON_LAUNCH"
+39-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:32:15-49
+40                android:resource="@style/AppTheme" />
+40-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:32:50-84
+41
+42            <intent-filter>
+42-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:34:4-37:20
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:35:5-57
+43-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:35:13-54
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:36:5-65
+45-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:36:15-62
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.tns.ErrorReportActivity" />
+48-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:39:3-57
+48-->C:\Projetos\Projeto_Informatico\SmartFeedback_Mobile\SmartFeedback\platforms\android\app\src\main\AndroidManifest.xml:39:13-55
+49
+50        <service
+50-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:15:9-17:40
+51            android:name="com.telerik.localnotifications.NotificationActionReceiver"
+51-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:16:13-85
+52            android:exported="false" />
+52-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:17:13-37
+53
+54        <receiver
+54-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:19:9-21:40
+55            android:name="com.telerik.localnotifications.NotificationClearedReceiver"
+55-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:20:13-86
+56            android:exported="false" />
+56-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:21:13-37
+57        <receiver
+57-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:22:9-24:40
+58            android:name="com.telerik.localnotifications.NotificationAlarmReceiver"
+58-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:23:13-84
+59            android:exported="false" />
+59-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:24:13-37
+60        <receiver
+60-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:25:9-33:20
+61            android:name="com.telerik.localnotifications.NotificationRestoreReceiver"
+61-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:26:13-86
+62            android:directBootAware="true"
+62-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:27:13-43
+63            android:exported="false" >
+63-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:28:13-37
+64            <intent-filter>
+64-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:29:13-32:29
+65                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+65-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:30:17-86
+65-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:30:25-83
+66                <action android:name="android.intent.action.BOOT_COMPLETED" />
+66-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:31:17-79
+66-->[:app-release:] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\a0a5823b19ce0025cace79fb1206488b\app-release\AndroidManifest.xml:31:25-76
+67            </intent-filter>
+68        </receiver>
+69    </application>
+70
+71</manifest>
